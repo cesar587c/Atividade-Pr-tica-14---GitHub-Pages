@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Gatos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Sobre Gatos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#curiosidades">Curiosidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tipos">Tipos de Gatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center bg-light">
+        <h1 class="display-4" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bem-vindo ao Mundo dos Gatos</h1>
+        <p class="lead" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Descubra curiosidades e diferentes raças de gatos.</p>
+        <a href="#curiosidades" class="btn btn-primary btn-lg">Saiba mais</a>
+    </header>
+
+    <!-- Seção Curiosidades -->
+    <section id="curiosidades" class="container my-5">
+        <h2 class="text-center mb-4">Curiosidades sobre Gatos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag/gato1.jpg" class="card-img-top" alt="Gato 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Gatos Dormem Muito</h5>
+                        <p class="card-text">Gatos podem dormir até 16 horas por dia! Esse hábito está relacionado aos seus instintos de caça.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag/gato2.jpg" class="card-img-top" alt="Gato 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Audição Apurada</h5>
+                        <p class="card-text">Os gatos têm uma audição muito sensível e conseguem ouvir sons de alta frequência que nós não percebemos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag/gato3.webp" class="card-img-top" alt="Gato 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Independência</h5>
+                        <p class="card-text">Apesar de serem muito apegados aos donos, gatos têm um comportamento mais independente em comparação a outros pets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Tipos de Gatos -->
+    <section id="tipos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Principais Raças de Gatos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Siamês</h4>
+                    <p>Conhecido por sua elegância e personalidade afetuosa, o Siamês é uma das raças mais populares do mundo.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Persa</h4>
+                    <p>O Persa é famoso por sua pelagem longa e macia e por sua natureza calma e tranquila.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Maine Coon</h4>
+                    <p>Uma das maiores raças de gatos, o Maine Coon é conhecido por sua gentileza e tamanho impressionante.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>British Shorthair</h4>
+                    <p>Com sua pelagem densa e personalidade amigável, o British Shorthair é uma escolha popular entre os amantes de gatos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container my-5">
+        <h2 class="text-center mb-4">Entre em Contato</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Sobre Gatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

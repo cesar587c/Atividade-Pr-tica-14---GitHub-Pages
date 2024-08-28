@@ -1,0 +1,19 @@
+/* Customizações adicionais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-image: url('../imag/cats_background.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+}
